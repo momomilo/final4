@@ -56,6 +56,19 @@ namespace MyFirstProgram
             Console.WriteLine($"{var1}" + $" {var2}");
             #endregion
 
+            #region q8
+            Console.WriteLine("Type principal ");
+            int principal = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Type rate ");
+            int rate = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Type time by years ");
+            int time = Convert.ToInt32(Console.ReadLine());
+            int Interest = (principal * rate * time) / 100;
+            Console.WriteLine(Interest);
+            #endregion
+
         }
     }
 }
