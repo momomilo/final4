@@ -100,6 +100,14 @@ namespace MyFirstProgram
             Console.WriteLine($"Today's date: {day} – {month} – {year}");
             #endregion
 
+            #region q12 
+            Console.WriteLine("Enter a number:");
+            int numk = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine((numk % 3 == 0 && numk % 4 == 0) ? "Yes" : "No");
+            #endregion
+
+
+
         }
     }
 }
