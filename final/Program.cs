@@ -77,6 +77,14 @@ namespace MyFirstProgram
             Console.WriteLine(Bmi);
             #endregion
 
+            #region q10 - Ternary operator for temperature
+            Console.WriteLine("Enter the temperature:");
+            int temp = Convert.ToInt32(Console.ReadLine());
+            string result = temp < 10 ? "Just Cold" :
+                            temp > 30 ? "Just Hot" : "Just Good";
+            Console.WriteLine(result);
+            #endregion
+
         }
     }
 }
