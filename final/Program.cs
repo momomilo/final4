@@ -85,6 +85,21 @@ namespace MyFirstProgram
             Console.WriteLine(result);
             #endregion
 
+            #region q11 - Date formatting
+            Console.WriteLine("Enter day:");
+            int day = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter month:");
+            int month = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter year:");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Today's date: {day} , {month} , {year}");
+            Console.WriteLine($"Today's date: {day} / {month} / {year}");
+            Console.WriteLine($"Today's date: {day} – {month} – {year}");
+            #endregion
+
         }
     }
 }
