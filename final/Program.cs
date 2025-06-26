@@ -112,6 +112,23 @@ namespace MyFirstProgram
             Console.WriteLine(number < 0 ? "Negative" : "Positive");
             #endregion
 
+            #region q14 
+            Console.WriteLine("Enter first number:");
+            int n1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter second number:");
+            int n2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter third number:");
+            int n3 = Convert.ToInt32(Console.ReadLine());
+
+            int max = Math.Max(n1, Math.Max(n2, n3));
+            int min = Math.Min(n1, Math.Min(n2, n3));
+
+            Console.WriteLine($"Max element = {max}");
+            Console.WriteLine($"Min element = {min}");
+            #endregion
+
         }
     }
 }
