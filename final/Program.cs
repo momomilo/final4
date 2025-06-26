@@ -1,4 +1,6 @@
-﻿namespace MyFirstProgram
+﻿using final;
+
+namespace MyFirstProgram
 {
     class Program
     {
@@ -36,6 +38,14 @@
             age = 18;
             Console.WriteLine(id); // id = 14 and not change to 18 
             Console.WriteLine(age);
+            #endregion
+
+            #region q6
+            akkk pl1 = new akkk();
+            akkk pl2 = pl1;
+            pl1.x = 11;
+            Console.WriteLine(pl2.x); // x = 11
+            Console.WriteLine(pl2.y); // 20 
             #endregion
 
         }
