@@ -23,6 +23,12 @@
             Console.WriteLine(opretion);  // 1.03f + 64.9f = 65.93 
             #endregion
 
+            #region q4 
+            string sub = "I play football with my friends";
+            sub = sub.Substring(0, 15);
+            Console.WriteLine(sub);
+            #endregion
+
         }
     }
 }
