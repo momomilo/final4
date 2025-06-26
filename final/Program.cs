@@ -12,6 +12,11 @@
             Console.WriteLine(num);
             #endregion
 
+            #region q2 
+            //string land = "ione";
+            //int con = Convert.ToInt32(land);
+            //Console.WriteLine(con); // It will not be possible to convert to numbers.
+            #endregion
 
 
         }
