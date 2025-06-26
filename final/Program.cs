@@ -129,6 +129,13 @@ namespace MyFirstProgram
             Console.WriteLine($"Min element = {min}");
             #endregion
 
+            #region q15 
+            Console.WriteLine("Enter a number:");
+            int evenCheck = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(evenCheck % 2 == 0 ? "Even" : "Odd");
+            #endregion
+
+
         }
     }
 }
