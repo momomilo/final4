@@ -18,6 +18,10 @@
             //Console.WriteLine(con); // It will not be possible to convert to numbers.
             #endregion
 
+            #region q3 
+            float opretion = 1.03f + 64.9f;
+            Console.WriteLine(opretion);  // 1.03f + 64.9f = 65.93 
+            #endregion
 
         }
     }
