@@ -29,6 +29,15 @@
             Console.WriteLine(sub);
             #endregion
 
+            #region q5
+            int u = 14;
+            int age = u;
+            int id = age;
+            age = 18;
+            Console.WriteLine(id); // id = 14 and not change to 18 
+            Console.WriteLine(age);
+            #endregion
+
         }
     }
 }
