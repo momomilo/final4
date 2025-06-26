@@ -135,6 +135,16 @@ namespace MyFirstProgram
             Console.WriteLine(evenCheck % 2 == 0 ? "Even" : "Odd");
             #endregion
 
+            #region q16 
+            Console.WriteLine("Enter a character:");
+            char ch = Convert.ToChar(Console.ReadLine().ToLower());
+
+            if ("aeiou".Contains(ch))
+                Console.WriteLine("Vowel");
+            else
+                Console.WriteLine("Consonant");
+            #endregion
+
 
         }
     }
