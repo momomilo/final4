@@ -145,6 +145,29 @@ namespace MyFirstProgram
                 Console.WriteLine("Consonant");
             #endregion
 
+            #region q17 
+            Console.WriteLine("Enter month number (1-12):");
+            int monthNumber = Convert.ToInt32(Console.ReadLine());
+
+            if (monthNumber == 1 || monthNumber == 3 || monthNumber == 5 || monthNumber == 7 ||
+                monthNumber == 8 || monthNumber == 10 || monthNumber == 12)
+            {
+                Console.WriteLine("Days in Month: 31");
+            }
+            else if (monthNumber == 4 || monthNumber == 6 || monthNumber == 9 || monthNumber == 11)
+            {
+                Console.WriteLine("Days in Month: 30");
+            }
+            else if (monthNumber == 2)
+            {
+                Console.WriteLine("Days in Month: 28");
+            }
+            else
+            {
+                Console.WriteLine("Invalid month number.");
+            }
+            #endregion
+
 
         }
     }
