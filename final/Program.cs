@@ -69,6 +69,14 @@ namespace MyFirstProgram
             Console.WriteLine(Interest);
             #endregion
 
+            #region q9 
+            // BMI = (Weight)/(Height*Height)
+            int Weight = 70;
+            int Height = 170;
+            int Bmi = (Weight) / (Height * Height);
+            Console.WriteLine(Bmi);
+            #endregion
+
         }
     }
 }
