@@ -48,6 +48,14 @@ namespace MyFirstProgram
             Console.WriteLine(pl2.y); // 20 
             #endregion
 
+            #region q7 
+            Console.WriteLine("Type first string variable");
+            string? var1 = Console.ReadLine();
+            Console.WriteLine("Type secound string variable");
+            string? var2 = Console.ReadLine();
+            Console.WriteLine($"{var1}" + $" {var2}");
+            #endregion
+
         }
     }
 }
