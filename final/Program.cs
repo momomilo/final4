@@ -106,7 +106,11 @@ namespace MyFirstProgram
             Console.WriteLine((numk % 3 == 0 && numk % 4 == 0) ? "Yes" : "No");
             #endregion
 
-
+            #region q13
+            Console.WriteLine("Enter an integer:");
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(number < 0 ? "Negative" : "Positive");
+            #endregion
 
         }
     }
